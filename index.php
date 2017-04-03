@@ -21,7 +21,7 @@
           <tr>
             <th>Název hry</th>
             <th>Studio</th>
-            <th>Žánr</th>
+            <th>Žánr</th> 
             <th>Cena</th>
           </tr>";
     
