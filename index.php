@@ -23,6 +23,8 @@
             <th>Studio</th>
             <th>Žánr</th> 
             <th>Cena</th>
+            <th></th>
+            <th></th>
           </tr>";
     
     while($zaznam_v_databazi = mysqli_fetch_array($data)){  
@@ -33,6 +35,7 @@
                     <td>{$zaznam_v_databazi["nazev_zanru"]}</td>
                     <td>{$zaznam_v_databazi["cena"]} Kč</td>
                     <td><a href='editace_hry.php?id={$zaznam_v_databazi["id"]}' title='Editovat výrobek'>Editovat</a></td>
+                    <td><a href='smazat_hru.php?id={$zaznam_v_databazi["id"]}' title='Smazat výrobek'>Smazat</a></td>
               </tr>"; 
     }
     
