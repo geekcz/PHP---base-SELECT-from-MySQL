@@ -32,7 +32,7 @@
                     <td>{$zaznam_v_databazi["nazev_studia"]}</td>
                     <td>{$zaznam_v_databazi["nazev_zanru"]}</td>
                     <td>{$zaznam_v_databazi["cena"]} Kč</td>
-                    <td><a href='editace.php?id={$zaznam_v_databazi["id"]}' title='Editovat výrobek'>Editovat</a></td>
+                    <td><a href='editace_hry.php?id={$zaznam_v_databazi["id"]}' title='Editovat výrobek'>Editovat</a></td>
               </tr>"; 
     }
     
